@@ -11,7 +11,7 @@ public:
 
 int main()
 {
-	mahasiswa* mhs = neww mahasiswa{ 1 };
+	mahasiswa* mhs = new mahasiswa{ 1 };
 	mhs->nim = 2;
 	mhs->showNim();
 	delete mhs;
