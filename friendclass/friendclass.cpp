@@ -32,3 +32,14 @@ void orang::setNama(string pNama) {
 	nama = pNama;
 }
 
+int main()
+{
+	orang o;
+	o.setNama("Jokp Kumat");
+	siswa s;
+	s.setId(1);
+	s.displayAll(o);
+	cout << endl;
+	system("Pause");
+	return 0;
+}
